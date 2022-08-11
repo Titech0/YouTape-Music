@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    background-color:transparent;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body {
+    background-color: #060606;
+}
+
+.buttons-default-style  {
+    border: none;
+    outline: none;
+}
+
+.buttons-default-style:hover {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    background-color: #060606;
+    height: 54px;
+    padding: 12px 20px 8px 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.header-logo-button {
+    z-index: 1;
+    height: 100%;
+    text-align: start;
+    border: none;
+    outline: none;
+}
+
+.header-logo-button:hover {
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-logo {
+    margin: 0;
+    height: 100%;
+}
+
+.header-menu {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    margin-top: 3px;
+    justify-content: space-between;
+}
+
+
+.menu-button:hover {
+    cursor: pointer;
+}
+.menu-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4px;
+    font-weight: 500;
+    color: #e0dfdf;
+} 
+
+.menu-text:hover {
+    color: #adadad;
+    transition: all 0.2s;
+}
+
+.menu-search-bar {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.menu-search-bar:hover > .menu-search-bar-input {
+    width: 60%;
+    opacity: 1;
+    pointer-events: inherit;
+}
+
+.menu-search-bar-input{
+    outline: none;
+    border: 1px solid #444444;
+    border-radius: 3px;
+    width: 0;
+    opacity: 0;
+    pointer-events: none;
+    height: 60%;
+    font-size: 100%;
+    transition: all 0.3s;
+}
+
+.menu-search-bar:hover .menu-search-bar-input{
+    display: inline-flex;
+}
+
+.menu-search-bar-input:focus {
+    border-color: #acacac;
+    transition: all 0.2s;
+}
+
+.menu-button button{
+    height: 100%;
+}
+.user{
+    z-index: 1;
+    height: 100%;
+}
+.user img{
+    height: 100%;
+}
+
